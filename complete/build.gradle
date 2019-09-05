@@ -12,6 +12,10 @@ repositories {
     mavenCentral()
 }
 
+springBoot {
+    mainClassName = 'hello.Application'
+}
+
 ext {
     set('springBootAdminVersion', "2.1.5")
 }
